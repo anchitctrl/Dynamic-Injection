@@ -1,0 +1,11 @@
+<template>
+    <div class="mainComponent">
+        <template if:true={currentPage}>
+            <c-load-any-lwc component-name={currentPage.componentName}></c-load-any-lwc>
+        </template>
+        <div class="buttonGroup">
+            <button onclick={handlePrevious}>Previous</button>
+            <button onclick={handleNext}>Next</button>
+        </div>
+    </div>
+</template>

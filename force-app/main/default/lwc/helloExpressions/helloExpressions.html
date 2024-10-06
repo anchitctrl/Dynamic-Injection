@@ -1,0 +1,13 @@
+<template>
+    <div class="mainComponent">
+        <div class="headingGroup">
+            <lightning-icon icon-name="standard:client"></lightning-icon>
+            <span class="titleStyle">Hello Expressions</span>
+        </div>
+        <div class="padding">
+            <lightning-input label="First Name" value={firstNameValue} onchange={updateName} name="first-name"></lightning-input>
+            <lightning-input label="Last Name" value={lastNameValue} onchange={updateName} name="last-name"></lightning-input>
+            <div class="upperCasedText"><span class="upperCasedTextBold">Uppercased Name:</span>{upperCasedNameValue}</div>
+        </div>
+    </div>
+</template>

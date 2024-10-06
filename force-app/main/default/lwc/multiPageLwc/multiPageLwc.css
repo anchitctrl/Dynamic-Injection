@@ -1,0 +1,19 @@
+.mainComponent{
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+
+button{
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #286387;
+    margin: 0px 10px;
+}
+
+.buttonGroup{
+    text-align: -webkit-center;
+}

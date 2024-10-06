@@ -1,0 +1,12 @@
+<template>
+    <div class="mainComponent">
+        <div class="headingGroup">
+            <lightning-icon icon-name="standard:activations"></lightning-icon>
+            <span class="titleStyle">Hello Binding</span>
+        </div>
+        <div class="padding">
+            <lightning-input label="Name" value={inputValue} onchange={updateName}></lightning-input>
+            <div class="helloText">{helloNameValue}</div>
+        </div>
+    </div>
+</template>
